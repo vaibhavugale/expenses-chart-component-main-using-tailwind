@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="stylesheet" href="main.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+  <div class="border bg-[#F8EADC] w-screen h-screen flex justify-center items-center flex-col">
+    <div class="flex flex-col w-[30%]  h-[60%] ">
+
+
+      <!-- upper content -->
+
+      <div class=" bg-[#E37B5D] flex justify-between px-3 py-3 rounded-lg">
+        <div>
+          <p class="text-[14px] text-white text-opacity-60  ">My balance</p>
+          <strong class="text-white
+          text-xl">$921.48
+          </strong>
+        </div>
+        <svg class="float-right" width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg">
+          <g fill="none" fill-rule="evenodd">
+            <circle fill="#382314" cx="48" cy="24" r="24" />
+            <circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23" />
+          </g>
+        </svg>
+      </div>
+
+      <!-- lower content  -->
+
+      <div class="flex
+       flex-col mt-3 py-3 px-3  gap-3  bg-white rounded-xl ">
+        <p class="text-xl font-bold"> Spending - Last 7 days</p>
+
+          
+
+
+          <div class="flex gap-4 items-baseline mx-1 justify-between mt-5 flex-wrap">
+            <div class="flex flex-col items-center">
+              <div class="bg-[#E37B5D] h-10 w-10 rounded-sm">
+                
+              </div>
+              <span>mon</span>
+            </div> 
+            <div class="flex flex-col items-center">
+              <div class="bg-[#E37B5D] h-14 w-10 rounded-sm">
+                
+              </div>
+              <span>tue</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <div class="bg-cyan-900 h-28 w-10 rounded-sm">
+                
+              </div>
+              <span>wed</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <div class="bg-[#E37B5D] h-20 w-10 rounded-sm">
+                
+              </div>
+              <span>thu</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <div class="bg-[#E37B5D] h-32 w-10 rounded-sm">
+                
+              </div>
+              <span>fri</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <div class="bg-[#E37B5D] h-16 w-10 rounded-sm">
+                
+              </div>
+              <span>sat</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <div class="bg-[#E37B5D] h-24 w-10 rounded-sm">
+                
+              </div>
+              <span>sun</span>
+            </div>
+              
+          </div>
+          
+        <hr class="text-black">
+        
+       
+        <div class="  flex justify-between items-center px-3 py-3 rounded-lg">
+          <div>
+            <p class="text-[14px] text-[#52473D]text-opacity-70 ">Total this month</p>
+            <strong class="text-[#52473D]
+            text-3xl">$921.48
+            </strong>
+          </div>
+           <div>
+            <span class=" font-bold text-[#52473D]
+            ">+2.4%</span>
+            <span class="text-sm block">from last month</span>
+           </div>
+        </div>
+      </div>
+     
+
+    </div>
+  </div>
+
+  <!-- My balance
+  $921.48
+
+  Spending - Last 7 days
+
+  mon
+  tue
+  wed
+  thu
+  fri
+  sat
+  sun
+
+  Total this month
+  $478.33
+
+  +2.4%
+  from last month
+   -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
