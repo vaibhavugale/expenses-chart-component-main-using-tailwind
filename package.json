@@ -1,10 +1,15 @@
-{  "scripts": {
-  "start":"vite"
-},
+{ "homepage": "http://https://vaibhavugale.github.io/expenses-chart-component-main-using-tailwind/",
+  "scripts": {
+    "start": "vite",
+    "predeploy":"yarn run start",
+    "deploy":"gh-pages -d start "
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4",
     "vite": "^4.1.1"
+   
   }
 }
